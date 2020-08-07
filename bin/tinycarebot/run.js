@@ -1,5 +1,6 @@
-var Twit = require('twit')
+/*var Twit = require('twit')
 var env = require('node-env-file');
+*/
 
 /* For this to work, you need to do two things:
 1. Run `npm install` in this directory
@@ -12,6 +13,8 @@ ACCESS_TOKEN='...'
 ACCESS_TOKEN_SECRET='...'
 (where the dots are your actual values)
 */
+
+/*
 env(__dirname + '/.env');
 
 var T = new Twit({
@@ -31,3 +34,4 @@ T.get('statuses/user_timeline', options , function(err, data) {
     console.log(output);
   }
 });
+*/

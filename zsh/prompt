@@ -23,14 +23,13 @@ git_dirty() {
 # If it's a git repo, add the git prompt
 git_prompt_go() {
   # check if we're in the chromium dir, which is too big to do git shenanigans.
-  if test "$PWD" == "$CHROMIUM_DIR"
-  then
-    echo ' 'on $(git_current_branch)
-  else
+  # if test "$PWD" == "$CHROMIUM_DIR"
+  # then
+  #   echo ' 'on $(git_current_branch)
+  # else
      # check if we're in a git repo
     command git rev-parse --is-inside-work-tree &>/dev/null || return
     echo ' 'on $(git_current_branch) $(git_prompt_ahead)$(git_prompt_behind)`git_dirty`' '
-  fi
 }
 
 # For my own and others sanity

@@ -3,7 +3,7 @@ ENABLE_CORRECTION="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # for tiny-care-terminal
-export TTC_REPOS="/Users/noms/Code","/Users/noms/.not-quite-dotfiles"
+# export TTC_REPOS="/Users/noms/Code","/Users/noms/.not-quite-dotfiles"
 export TTC_REPOS_DEPTH=2
 # export TTC_GITBOT='gitlog'
 export TTC_WEATHER='San Francisco'
@@ -27,12 +27,13 @@ source $HOME/.not-quite-dotfiles/zsh/prompt
 source $HOME/.not-quite-dotfiles/zsh/aliases
 source $HOME/.not-quite-dotfiles/zsh/chrome
 
-export PATH="/Users/noms/miniconda2/bin:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$HOME/Code/depot_tools:$HOME/git-lfs"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+# export PATH="/Users/noms/miniconda2/bin:/usr/local/git/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$HOME/Code/depot_tools:$HOME/git-lfs"
 
 # for google cloud sdk
-source $HOME/Code/google-cloud-sdk/path.zsh.inc
+# source $HOME/Code/google-cloud-sdk/path.zsh.inc
 
-export NVM_DIR="/Users/noms/.nvm"
+export NVM_DIR="/Users/theresagao/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 care_bot() {
