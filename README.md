@@ -1,3 +1,9 @@
+*shoutout to @notwaldorf for all of this cute custom setup* 	♡＼(￣▽￣)／♡
+
+## my personal edits (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+- removed @notwaldorf's `alias vi=emacs` (sry this is lowkey cruel)
+- commented out twitter api stuff bc taking a break from twitter
+
 ## Not quite .dotfiles
 NO JUDGING.
 
