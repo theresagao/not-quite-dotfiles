@@ -3,8 +3,8 @@
 [credential]
 	helper = osxkeychain
 [user]
-	name = YOUR_NAME
-	email = YOUR_EMAIL
+	name = Theresa Gao
+	email = theresagao.123@gmail.com
 [url "https://github"]
 	insteadOf = git://github
 [color]
@@ -14,8 +14,8 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = emacs
-	pager = diff-so-fancy | less --tabs=4 -RFX
+        editor = vim
+	      # pager = diff-so-fancy | less --tabs=4 -RFX
 [help]
         autocorrect = 1
 [push]
